@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ACFAC64A-D710-41AE-B2EB-9240B623B4E5}</ProjectGuid>
+    <ProjectGuid>{77DFE0D8-FA05-423E-B9E3-9596D05EB769}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>LuisMiguelOrtiz.MartianRobots.CLI</RootNamespace>
     <AssemblyName>LuisMiguelOrtiz.MartianRobots.CLI</AssemblyName>
@@ -44,16 +44,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataCollector.cs" />
+    <Compile Include="ExceededCoordinateException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ExceededCoordinateException.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LuisMiguelOrtiz.MartianRobots.Data\LuisMiguelOrtiz.MartianRobots.csproj">
-      <Project>{8a01ea6c-3c5a-4119-a54b-6bf2faa70e53}</Project>
+    <ProjectReference Include="..\LuisMiguelOrtiz.MartianRobots\LuisMiguelOrtiz.MartianRobots.csproj">
+      <Project>{4b910136-0d8a-4ea8-9ff8-de990b075e48}</Project>
       <Name>LuisMiguelOrtiz.MartianRobots</Name>
     </ProjectReference>
   </ItemGroup>

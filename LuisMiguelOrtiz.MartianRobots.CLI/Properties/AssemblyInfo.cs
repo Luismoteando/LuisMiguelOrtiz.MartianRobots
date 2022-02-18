@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("LuisMiguelOrtiz.MartianRobots")]
+[assembly: AssemblyTitle("LuisMiguelOrtiz.MartianRobots.CLI")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LuisMiguelOrtiz.MartianRobots")]
+[assembly: AssemblyProduct("LuisMiguelOrtiz.MartianRobots.CLI")]
 [assembly: AssemblyCopyright("Copyright ©  2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("acfac64a-d710-41ae-b2eb-9240b623b4e5")]
+[assembly: Guid("77dfe0d8-fa05-423e-b9e3-9596d05eb769")]
 
 // Version information for an assembly consists of the following four values:
 //
