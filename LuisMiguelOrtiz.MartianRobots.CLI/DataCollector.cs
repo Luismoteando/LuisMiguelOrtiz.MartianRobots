@@ -57,8 +57,15 @@ namespace LuisMiguelOrtiz.MartianRobots.CLI
                 var commands = inputs[i + 1];
 
                 ValidateCoordinates(position);
+                ValidateCommands(commands);
                 Robots.Add(BuildNewRobot(position, commands));
             }
+        }
+
+        private static void ValidateCommands(string commands)
+        {
+            if (commands.Length > MaxCharsPerInstruction)
+                throw new ExceededInstructionsException($"The command {commands} has a larger number of instructions than {MaxCharsPerInstruction}.");
         }
 
         private static Robot BuildNewRobot(string[] position, string commands)
