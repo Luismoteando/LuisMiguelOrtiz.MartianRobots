@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuisMiguelOrtiz.MartianRobots.CLI", "LuisMiguelOrtiz.MartianRobots\LuisMiguelOrtiz.MartianRobots.CLI.csproj", "{ACFAC64A-D710-41AE-B2EB-9240B623B4E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LuisMiguelOrtiz.MartianRobots", "LuisMiguelOrtiz.MartianRobots.Data\LuisMiguelOrtiz.MartianRobots.csproj", "{8A01EA6C-3C5A-4119-A54B-6BF2FAA70E53}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACFAC64A-D710-41AE-B2EB-9240B623B4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACFAC64A-D710-41AE-B2EB-9240B623B4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACFAC64A-D710-41AE-B2EB-9240B623B4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACFAC64A-D710-41AE-B2EB-9240B623B4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A01EA6C-3C5A-4119-A54B-6BF2FAA70E53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A01EA6C-3C5A-4119-A54B-6BF2FAA70E53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A01EA6C-3C5A-4119-A54B-6BF2FAA70E53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A01EA6C-3C5A-4119-A54B-6BF2FAA70E53}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FC73E67-C600-430D-ACF9-BC14953749B8}
+	EndGlobalSection
+EndGlobal
