@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LuisMiguelOrtiz.MartianRobots.Models;
+using System;
 
 namespace LuisMiguelOrtiz.MartianRobots.CLI
 {
@@ -19,7 +20,11 @@ namespace LuisMiguelOrtiz.MartianRobots.CLI
             var world = new World(DataCollector.Width,
                 DataCollector.Height,
                 DataCollector.Robots);
+
             world.ProcessRobots();
+            world.PrintRobots();
+
+            Console.ReadLine();
         }
     }
 }

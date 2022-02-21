@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataCollector.cs" />
-    <Compile Include="ExceededCoordinateException.cs" />
-    <Compile Include="ExceededInstructionsException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

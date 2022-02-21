@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace LuisMiguelOrtiz.MartianRobots
+namespace LuisMiguelOrtiz.MartianRobots.Exceptions
 {
     [Serializable]
     public class UnrecognizedCommandException : Exception

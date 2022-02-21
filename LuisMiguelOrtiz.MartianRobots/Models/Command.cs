@@ -1,4 +1,6 @@
-﻿namespace LuisMiguelOrtiz.MartianRobots
+﻿using LuisMiguelOrtiz.MartianRobots.Exceptions;
+
+namespace LuisMiguelOrtiz.MartianRobots.Models
 {
     public abstract class Command
     {
@@ -16,5 +18,7 @@
                     throw new UnrecognizedCommandException("An unrecognized command has been entered as input.");
             }
         }
+
+        public abstract void Execute(Robot robot, World world);
     }
 }

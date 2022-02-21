@@ -1,4 +1,4 @@
-﻿namespace LuisMiguelOrtiz.MartianRobots
+﻿namespace LuisMiguelOrtiz.MartianRobots.Models
 {
     public class Position
     {
@@ -7,6 +7,11 @@
 
         public Position()
         {
+        }
+
+        public override string ToString()
+        {
+            return Coordinate.ToString() + " " + Orientation.ToString();
         }
     }
 }

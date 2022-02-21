@@ -1,8 +1,9 @@
-﻿using System;
+﻿using LuisMiguelOrtiz.MartianRobots.Exceptions;
+using LuisMiguelOrtiz.MartianRobots.Models;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace LuisMiguelOrtiz.MartianRobots.CLI
+namespace LuisMiguelOrtiz.MartianRobots
 {
     public static class DataCollector
     {
@@ -13,7 +14,7 @@ namespace LuisMiguelOrtiz.MartianRobots.CLI
         public static int Height { get; set; }
         public static IList<Robot> Robots;
 
-        internal static World Collect(string input)
+        public static World Collect(string input)
         {
             input = input.Replace("\r\n", "\n");
 
@@ -74,12 +75,8 @@ namespace LuisMiguelOrtiz.MartianRobots.CLI
             {
                 Position = new Position()
                 {
-                    Coordinate = new Coordinate()
-                    {
-                        X = int.Parse(position[0]),
-                        Y = int.Parse(position[1]),
-                    },
-                    Orientation = (Orientation)Enum.Parse(typeof(Orientation), position[2])
+                    Coordinate = new Coordinate(int.Parse(position[0]), int.Parse(position[1])),
+                    Orientation = new Orientation(position[2])
                 },
                 Commands = commands.ToString()
                     .Select(command => Command.Parse(command))
