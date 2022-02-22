@@ -1,5 +1,7 @@
 # How to run LuisMiguelOrtiz.MartianRobots
 
+This project has been developed in .NET Framework and consists of a Console Application that processes robots, in a custom-sized grid, based on their position and a sequence of commands.
+
 ## Prerequisites
 - Windows OS.
 - Git for Windows.
